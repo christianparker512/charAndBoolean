@@ -13,10 +13,26 @@ public class Main {
         System.out.println(myUnicodeChar);
         char myCopyrightChar = '\u00A9';
         System.out.println(myCopyrightChar);
-        boolean myTrueBooleanValue = true;
-        boolean myFalseBooleanValue = false;
+    boolean myTrueBooleanValue = true;
+    boolean myFalseBooleanValue = false;
+    boolean isCustomerOverTwentyOne = true;
 
-        boolean isCustomerOverTwentyOne = true;
+    //byte
+    //short
+    //long
+    //float
+    //double
+    //char
+    //boolean
+       String myString = "My name is chris";
+        System.out.println("My string is equal to " + myString);
+        String numberString = "250.55";
+        numberString = numberString + "49.95";
+        System.out.println(numberString);
 
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("LastString is equal to " + lastString);
     }
 }
